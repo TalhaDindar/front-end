@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import React from "react";
 import Login from "./Login";
@@ -18,3 +19,18 @@ function App() {
 }
 
 export default App;
+=======
+import React from 'react';
+import AdminDashboard from './components/AdminDashboard/AdminDashboard';
+import './App.css';
+
+function App() {
+  return (
+    <div className="app">
+      <AdminDashboard />
+    </div>
+  );
+}
+
+export default App
+>>>>>>> 63bc5bc30988d1319bddbb889257d5f9a4d9966f

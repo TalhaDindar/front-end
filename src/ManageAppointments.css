@@ -1,0 +1,124 @@
+.dashboard-container {
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dashboard-subtitle {
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.filters {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    gap: -50px;
+}
+
+.filter-box {
+    flex: 1;
+    min-width: 0;
+    background: #fce5fc;
+    padding: 15px;
+    border-radius: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.filter-box input,
+.filter-box select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.appointments-box {
+    margin-top: 20px;
+    background: #fce5fc;
+    padding: 40px;
+    border-radius: 12px;
+    min-height: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.appointment-card {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-top: 1rem;
+}
+
+.appointment-card p {
+    text-align: left;
+    margin: 8px 0;
+    font-size: 0.8rem;
+}
+
+.appointment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+
+}
+
+.status-badge {
+    background: #faa19b;
+    color: #b73229;
+    font-weight: bold;
+    padding: 4px 20px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+
+}
+
+.appointment-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.appointment-footer span {
+    font-size: 0.9rem;
+    
+}
+
+.appointment-footer .time {
+    margin-left: -180px;
+}
+
+.details-btn {
+    background: #cccccf;
+    color: #4f494b;
+    font-weight: bold;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background 0.2s;
+}
+
+.details-btn:hover {
+    background: grey;
+}

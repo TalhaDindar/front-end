@@ -1,0 +1,95 @@
+.details-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.details-container h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.details-container p {
+  font-size: 15px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.details-container strong {
+  color: #222;
+}
+
+.decision-box {
+  margin-top: 25px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.decision-box h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.decision-box label {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.decision-box input[type="radio"] {
+  margin-right: 6px;
+}
+
+.decision-box button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.decision-box button:hover {
+  background-color: #0056b3;
+}
+
+/* Fallback page (when no data found) */
+.details-container h2 {
+  text-align: center;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.details-container p {
+  text-align: center;
+  color: #888;
+}
+
+.details-container button {
+  display: block;
+  margin: 15px auto 0;
+  padding: 8px 14px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.details-container button:hover {
+  background: #5a6268;
+}

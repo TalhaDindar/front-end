@@ -1,8 +1,10 @@
 import React from 'react';
+import '../pages/FirstPage.css';
 import { useNavigate } from 'react-router-dom';
 import Alerts from '../components/Alerts';
 
-export default function FirstPage() {
+export default function FirstPage() 
+{
   const navigate = useNavigate();
 
   return (

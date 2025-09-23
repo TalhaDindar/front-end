@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import '../pages/BookingPage.css';
 import Calendar from '../components/Calendar';
 import TimeSlots from '../components/TimeSlots';
 
-export default function BookingPage() {
+export default function BookingPage() 
+{
   const navigate = useNavigate();
   const [selectedDate, setSelectedDate] = useState(null);
   const [selectedTime, setSelectedTime] = useState(null);

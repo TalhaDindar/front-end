@@ -1,0 +1,33 @@
+.services-section 
+{
+  margin-top: 2rem;
+}
+
+.services-grid 
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card 
+{
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover 
+{
+  transform: translateY(-5px);
+}
+
+.grid-buttons 
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}

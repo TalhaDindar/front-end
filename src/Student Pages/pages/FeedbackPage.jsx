@@ -1,8 +1,10 @@
 import React from 'react';
+import '../pages/FeedbackPage.css';
 import { useNavigate } from 'react-router-dom';
 import FeedbackForm from '../components/FeedbackForm';
 
-export default function FeedbackPage() {
+export default function FeedbackPage() 
+{
   const navigate = useNavigate();
 
   return (
